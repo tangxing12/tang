@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div>
+ <div id="header" class="row">
+     <!--头-->
+     <div class="col-md-12 hed">
+         <div class="row hed1 pl-5">
+             <div class="col-md-3">
+                 <a href="">
+                     <img src="img/header/logo.jpg" class="pt-2 pb-4 pl-5"/>
+                 </a>
+             </div>
+             <div class="col-md-5 pt-2 pl-4">
+                 <a href="http://tianqi.2345.com/hechuan/60433.htm" class="tq">
+                     <ul class="list-unstyled pt-4 pl-4">
+                         <li class="float-left pr-4 pt-2"  id="time"></li>
+                         <li class="float-left">
+                             <div >
+                                 <img src="img/header/tqtp.png" />
+                             </div>
+                         </li>
+                         <li class="float-left ml-4">
+                             <img src="img/header/dhh.png" alt=""/>
+                         </li>
+                     </ul>
+                 </a>
+             </div>
+             <div class="col-md-3">
+                 <ul class="list-unstyled flex-column">
+                     <li>
+                         <img src="img/header/fsgq.png" alt=""/>
+                     </li>
+                     <li class="pt-3 zc" id="ycdl">
+                         <a href="#" class="text-dark">登录|</a>
+                         <a href="#" class="text-dark" >注册|</a>
+                         <a href="#" class="text-dark" >我的账户</a>
+                     </li>
+                     <li id="xsdl">
+                         <a href="#" class="text-dark">欢迎</a>
+                         <a href="#" class="text-dark" id="zc"></a>
+                         <a href="#" class="text-dark" >注销</a>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+         <!--大标题-->
+         <div class="row">
+             <!--首页-->
+             <div class="col-md-1 offset-md-2">
+                 <a href="#" >首页</a>
+             </div>
+             <!--概况-->
+             <div class="col-md-1 pl-2 lianjie">
+                 <div  class="dw">
+                     <div id="dm" class="p-0">
+                         <div class="row p-0 myborder">
+                             <div class="col-md-4">
+                                 <ul class="list-unstyled flex-column">
+                                     <li>
+                                         <a href="" class="text-primary">景区概况</a>
+                                     </li>
+                                     <li>
+                                         <img src="img/headerD/01.jpg" class="img1"/>
+                                     </li>
+                                     <li class="zt pr-1">
+                                         <span class="font-weight-bold text-primary">合川概况</span>
+                                         <br>合川区是巴文化的发源地之一，境内有钓鱼城、涞滩古镇等著名历史文化古迹，周敦颐、张森楷、卢作孚、陶行知等历代名人曾在此授教创业，是新中国第一位少年英雄刘文学的故乡。
+                                     </li>
+                                 </ul>
+                             </div>
+                             <div class="col-md-3 p-0">
+                                 <img src="img/headerD/05.jpg" class="img2"/>
+                                 <ul class="list-unstyled float-left">
+                                     <li id="mei1" class="myyc ">太平门</li>
+                                     <li id="mei2" class="myyc ">临江门</li>
+                                     <li id="mei3" class="myyc ">储奇门</li>
+                                     <li id="mei4" class="myyc">金棠门</li>
+                                     <li id="mei5" class="myyc ">南纪门</li>
+                                     <li id="mei6" class="myyc ">通远门</li>
+                                     <li id="mei7" class="myyc">平庸门</li>
+                                     <li id="mei8" class="myyc">朝天门</li>
+                                     <li id="mei9" class="myyc ">东水门</li>
+                                     <li id="mei10"><a href=""class="text-dark myg d-inline">打开大图</a></li>
+                                 </ul>
+                             </div>
+                             <div class="col-md-1 p-0">
+                                 <ul class="list-unstyled flex-column">
+                                     <li ><a href="" class="text-primary" >古城楼</a></li>
+                                     <li ><a href="#mei1" class="text-dark myg wzt">太平门</a></li>
+                                     <li ><a href="#mei2" class="text-dark myg wzt">临江门</a></li>
+                                     <li ><a href="#mei3" class="text-dark myg wzt">储奇门</a></li>
+                                     <li ><a href="#mei4" class="text-dark myg wzt">金棠门</a></li>
+                                     <li ><a href="#mei5"class="text-dark myg wzt">南纪门</a></li>
+                                     <li ><a href="#mei6"class="text-dark myg wzt">通远门</a></li>
+                                     <li ><a href="#mei7"class="text-dark myg wzt">平庸门</a></li>
+                                     <li ><a href="#mei8"class="text-dark myg wzt">朝天门</a></li>
+                                     <li ><a href="#mei9"class="text-dark myg wzt">东水门</a></li>
+                                 </ul>
+                             </div>
+                             <div class="col-md-2 p-0">
+                                 <ul class="list-unstyled flex-column p-0">
+                                     <li>
+                                         <a href="" class="d-inline text-primary">景区风光</a>
+                                     </li>
+                                     <li class="p-0">
+                                         <img src="img/headerD/03.jpg" alt=""/>
+                                     </li>
+                                     <li>
+                                         <a href="" class="d-inline text-primary">古城风情</a>
+                                     </li>
+                                     <li>
+                                         <img src="img/headerD/04.jpg" alt=""/>
+                                     </li>
+                                 </ul>
+                             </div>
+                             <div class="col-md-1 p-1">
+                                 <ul class="list-unstyled flex-column">
+                                     <li><a href="" class="text-primary">人文合川</a></li>
+                                     <li><a href=""  class="Dzt wzt">打糍粑</a></li>
+                                     <li><a href=""class="Dzt wzt">【生辰】</a></li>
+                                     <li><a href=""class="Dzt wzt">串堂班</a></li>
+                                     <li><a href=""class="Dzt wzt">习俗</a></li>
+                                     <li><a href=""class="Dzt wzt">李晓红</a></li>
+                                     <li><a href=""class="Dzt wzt">刘文学</a></li>
+                                     <li><a href=""class="Dzt wzt">石青云</a></li>
+                                     <li><a href=""class="Dzt wzt">邹智</a></li>
+                                     <li><a href=""class="Dzt wzt">冯镇峦</a></li>
+                                     <li><a href=""class="Dzt wzt">张乃孚 </a></li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+
+
+					 </div>
+                     <ul class="list-unstyled flex-column">
+                         <li ><a href="" class="d-inline ">大美合川</a></li>
+                         <li >
+                             <div class="jt "></div>
+                         </li>
+                     </ul>
+             </div>
+             <!--交通-->
+             <div class="col-md-1 pl-2 lianjie1">
+                 <div class="wz1">
+                     <div class="wz">
+                          <div class="row myborder">
+                              <div class="col-md-2 border-right border-secondary">
+                                  <ul class="list-unstyled flex-column m-auto">
+                                      <li><a href="#" class="text-primary">景区交通</a></li>
+                                      <li><img src="img/headerW/01-1.jpg" /></li>
+                                      <li><a href="" class="wzt">景区外交通</a></li>
+                                      <li><a href="" class="wzt">景区内交通</a></li>
+                                  </ul>
+                              </div>
+                              <div class="col-md-2 border-right border-secondary">
+                                  <ul class="list-unstyled flex-column">
+                                      <li><a href="" class="text-primary">宾馆酒店</a></li>
+                                      <li>
+                                          <img src="img/headerW/02.jpg" />
+                                      </li>
+                                     <div class="row">
+                                      <div class="col-md-6">
+                                          <a href="" class="wzt">物价优惠</a>
+                                      </div>
+                                      <div class="col-md-6">
+                                          <a href="" class="wzt">星级宾馆</a>
+                                      </div>
+                                     </div>
+                                    <div class="row">
+                                      <div class="col-md-6">
+                                          <a href="" class="wzt">普通酒店</a>
+                                      </div>
+                                      <div class="col-md-6">
+                                          <a href="" class="wzt">乡村客栈</a>
+                                      </div>
+                                    </div>
+                                      <li>
+                                          <a href="" class="wzt">度假别墅</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="col-md-2 border-right border-secondary">
+                                  <ul class="list-unstyled">
+                                      <li>
+                                          <a href="" class="text-primary" class="wzt">精品线路</a>
+                                      </li>
+                                      <li>
+                                          <img src="img/headerW/03.jpg" alt=""/>
+                                      </li>
+                                      <li>
+                                          <div class="row">
+                                              <div class="col-md-6"><a href="" class="wzt">四季摄影</a></div>
+                                              <div class="col-md-6 ">
+                                                  <a href=""class="wzt">民俗文化</a>
+                                              </div>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="row">
+                                              <div class="col-md-6"><a href="" class="wzt">生态观光</a></div>
+                                              <div class="col-md-6">
+                                                  <a href="" class="wzt">美食度假</a>
+                                              </div>
+                                          </div>
+                                      </li>
+                                      </li>
+                                      <li><a href="" class="wzt">休闲自驾游</a></li>
+                                  </ul>
+                              </div>
+                              <div class="col-md-2 border-right border-secondary">
+                                  <ul class="list-unstyled">
+                                      <li>
+                                          <a href="" class="text-primary">特色美食</a>
+                                      </li>
+                                      <li>
+                                          <img src="img/headerW/04.jpg" alt=""/>
+                                      </li>
+                                      <li>
+                                          <a href="" class="wzt">美食介绍</a>
+                                      </li>
+                                      <li>
+                                          <a href="" class="wzt">美食推荐</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="col-md-2 border-right border-secondary">
+                                  <ul class="list-unstyled">
+                                      <li><a href="" class="text-primary">地方特产</a></li>
+                                      <li><img src="img/headerW/01.jpg" alt=""/></li>
+                                      <li>
+                                          <div class="row">
+                                              <div class="col-md-6"><a href="" class="wzt">合川桃片</a></div>
+                                              <div class="col-md-6"><a href=""class="wzt">工艺品</a></div>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="row">
+                                              <div class="col-md-6"><a href="" class="wzt">纪念品</a></div>
+                                              <div class="col-md-6"><a href="" class="wzt">山货</a></div>
+                                          </div>
+                                      </li>
+                                      <li><a href="" class="wzt">食品类</a></li>
+                                  </ul>
+                              </div>
+                              <div class="col-md-2">
+                                  <ul class="list-unstyled">
+                                      <li><a href="" class="text-primary">休闲娱乐</a></li>
+                                      <li><img src="img/headerW/05.jpg" alt=""/></li>
+                                      <li>
+                                          <div class="row">
+                                              <div class="col-md-6"><a href="" class="wzt">风云影城</a></div>
+                                              <div class="col-md-6"><a href=""class="wzt">KTV</a></div>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="row">
+                                              <div class="col-md-6"><a href="" class="wzt">足浴</a></div>
+                                              <div class="col-md-6"><a href="" class="wzt">嘉凌江</a></div>
+                                          </div>
+                                      </li>
+                                      <li><a href="" class="wzt">漂流</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                     </div>
+					 </div>
+                     <ul class="list-unstyled flex-column">
+                         <li ><a href="" class="d-inline ">玩转合川</a></li>
+                         <li >
+                             <div class="jt "></div>
+                         </li>
+                     </ul>
+             </div>
+             <!--门票-->
+             <div class="col-md-1 pl-2 lianjie2">
+                 <div class="zxyd" >
+                     <div class="zxyd1">
+                         <div class="row myborder">
+                             <div class="col-md-3 border-right border-dark p-0">
+                                 <ul class="list-unstyled ">
+                                     <li>
+                                         <a href="" class="text-primary">门票预订</a>
+                                     </li>
+                                     <li>
+                                         <img src="img/headerZ/01.jpg" />
+                                     </li>
+                                 </ul>
+                             </div>
+                             <div class="col-md-3 border-right border-dark pl-2">
+                                 <ul class="list-unstyled ">
+                                     <li>
+                                         <a href="" class="text-primary">酒店预订</a>
+                                     </li>
+                                     <li>
+                                         <img src="img/headerZ/02.jpg" />
+                                     </li>
+                                 </ul>
+                             </div>
+                             <div class="col-md-3 border-right border-dark pl-2">
+                                 <ul class="list-unstyled ">
+                                     <li>
+                                         <a href="" class="text-primary">线路预订</a>
+                                     </li>
+                                     <li>
+                                         <img src="img/headerZ/04.jpg" />
+                                     </li>
+                                 </ul>
+                             </div>
+                             <div class="col-md-3 pl-2">
+                                 <ul class="list-unstyled ">
+                                     <li>
+                                         <a href="" class="text-primary">商品预订</a>
+                                     </li>
+                                     <li>
+                                         <img src="img/headerZ/05.jpg" />
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+					 </div>
+                 </div>
+                     <ul class="list-unstyled">
+                         <li ><a href="" class="d-inline ">在线预订</a></li>
+                         <li >
+                             <div class="jt "></div>
+                         </li>
+                     </ul>
+             </div>
+             <!--旅游动态-->
+             <div class="col-md-1 pl-2 lianjie3">
+                 <div class="ly">
+                     <div class="ly1">
+                         <div class="row dw1 myborder p-0">
+                             <div class="col-md-8 border-right border-right">
+                                  <div class="row p-0">
+                                      <div class="col-md-3 ">
+                                          <a href="" class="text-primary wzt font-weight-bold">旅游动态</a>
+                                      </div>
+                                       <div class="col-md-2 offset-7">
+                                           <a href="" class="wzt font-weight-bold  pl-4">更多&gt;</a>
+                                       </div>
+                                  </div>
+                                 <div class="row p-0">
+                                     <div class="col-md-6">
+                                         <ul class="list-unstyled bg-light flex-row d-flex">
+                                             <li>
+                                                 <a href=""><img src="img/headerL/tu25.jpg" class="pt-2"/></a>
+                                             </li>
+                                             <li>
+                                                 <a href=""><span class="font-weight-bold wzt">[3月30日花情播报]合川周末晴好</span>
+                                                 <p class="wzt">[3月30日花情播报]合川周末晴好 无限热闹处，尽在花众中,...</p></a>
+                                             </li>
+                                         </ul>
+                                     </div>
+                                     <div class="col-md-6">
+                                         <ul class="list-unstyled bg-light flex-row d-flex">
+                                             <li>
+                                                 <a href=""><img src="img/headerL/tu19.jpg" alt=""/></a>
+                                             </li>
+                                             <li>
+                                                 <span class="font-weight-bold wzt">大小交通、自驾住宿---解疑问答</span>
+                                                 <p class="wzt">合川桃花分为“早桃”与“晚桃花”两种类...</p>
+                                             </li>
+                                         </ul>
+                                     </div>
+                                 </div>
+                                 <div class="row">
+                                     <div class="col-md-7 offset-4">
+                                         <ul class="d-flex flex-row list-unstyled bg-light">
+                                             <li>
+                                                 <a href="" class="pt-3"><img src="img/headerL/tu28.jpg" alt=""/></a>
+                                             </li>
+                                             <li>
+                                                 <span class="font-weight-bold wzt">合川钩鱼城，云雾缭绕：网友惊呼</span>
+                                                 <p class="wzt">合川钩鱼城，云雾缭绕：网友惊呼“仙境坠落人间，感觉要成仙了”</p>
+                                             </li>
+                                         </ul>
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="col-md-4">
+                                 <div class="row">
+                                     <div class="col-md-4">
+                                         <a href="" class="font-weight-bold text-primary wzt">景区公告</a>
+                                     </div>
+                                     <div class="col-md-3 offset-5 pl-3">
+                                         <a href="" class="font-weight-bold wzt">更多&gt;</a>
+                                     </div>
+                                 </div>
+                                 <div class="row pt-2">
+                                     <div class="col-md-11 offset-1">
+                                         <ul class="list-unstyled bg-light">
+                                             <li class="wzt">
+                                                 国家旅游局公示第三届全国旅游服务质量标杆
+                                             </li>
+                                             <li class="wzt">
+                                                 【急聘】人事专员、财务专员、民宿酒店堂主
+                                             </li>
+                                             <li class="wzt">
+                                                 关于文公山景区暂停营业的公告
+                                             </li>
+                                             <li class="wzt">
+                                                 跟着在合川的乡村走一走，五一假期不用瞎转
+                                             </li>
+                                             <li>
+                                                 通告: 合川李坑自11月1日起关闭 ,
+                                             </li>
+                                             <li class="wzt">
+                                                 【紧急辟谣】人民日报报道错误，合川彩虹桥
+                                             </li>
+                                             <li class="wzt">
+                                                 2017年暑期优惠政策
+                                             </li>
+                                             <li class="wzt">【急聘】人事专员、财务专员、民宿酒店堂主</li>
+                                         </ul>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <a href="" >
+                     <ul class="list-unstyled flex-column">
+                         <li ><a href="" class="d-inline ">旅游资讯</a></li>
+                         <li >
+                             <div class="jt "></div>
+                         </li>
+                     </ul>
+                 </a>
+             </div>
+             <!--活动-->
+             <div class="col-md-1 pl-2 lianjie4">
+                 <div class="hd">
+                     <div class="hd1">
+                         <div class="row myborder">
+                             <div class="col-md-4 border-right border-light">
+                                 <div class="row">
+                                     <div class="col-md-4">
+                                         <a href="#" class="text-primary wzt font-weight-bold">正在发生</a>
+                                     </div>
+                                     <div class=" col-md-3 offset-5">
+                                         <a href="#" class="wzt font-weight-bold">更多&gt;</a>
+                                     </div>
+                                 </div>
+                                 <div class="row">
+                                     <div class="col-md-12">
+                                         <ul class="list-unstyled d-flex flex-row bg-light">
+                                             <li>
+                                                 <a href="#">
+                                                     <img src="img/headerS/tu13.jpg"class="pt-2 pl-2"/>
+                                                 </a>
+                                             </li>
+                                             <li>
+                                                 <span class="wzt font-weight-bold">七夕恋爱季，爱Ta就带Ta来合川</span>
+                                                 <p class="wzt">七夕作为中国人传统的情人节，既有浪漫的氛围，又能传承文化的基...</p>
+                                             </li>
+                                         </ul>
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="col-md-4 border-right border-light">
+                                 <div class="row">
+                                     <div class="col-md-4">
+                                         <a href="#" class="text-primary wzt font-weight-bold">著名景点</a>
+                                     </div>
+                                     <div class=" col-md-3 offset-5">
+                                         <a href="#" class="wzt font-weight-bold">更多&gt;</a>
+                                     </div>
+                                 </div>
+                                 <div class="row">
+                                     <div class="col-md-12">
+                                         <ul class="list-unstyled d-flex flex-row bg-light">
+                                             <li>
+                                                 <a href="#">
+                                                     <img src="img/headerS/tu24.jpg"class="pt-2 pl-2"/>
+                                                 </a>
+                                             </li>
+                                             <li>
+                                                 <span class="wzt font-weight-bold">钓鱼城</span>
+                                                 <p class="wzt">合川钓鱼城历史悠久，南宋时期，钓鱼城之战被誉为“上帝折鞭处”，“东方麦加”...</p>
+                                             </li>
+                                         </ul>
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="col-md-4">
+                                 <div class="row">
+                                     <div class="col-md-4">
+                                         <a href="#" class="text-primary wzt font-weight-bold">活动纪实</a>
+                                     </div>
+                                     <div class=" col-md-3 offset-5">
+                                         <a href="#" class="wzt font-weight-bold">更多&gt;</a>
+                                     </div>
+                                 </div>
+                                 <div class="row">
+                                     <div class="col-md-12">
+                                         <ul class="list-unstyled d-flex flex-row bg-light">
+                                             <li>
+                                                 <a href="#">
+                                                     <img src="img/headerS/tu21.jpg"class="pt-2 pl-2"/>
+                                                 </a>
+                                             </li>
+                                             <li>
+                                                 <span class="wzt font-weight-bold">合川旅游集团工会活动</span>
+                                                 <p class="wzt">春天是万物复苏的季节，是播撒种子和希望的季节；春天是开始，是...</p>
+                                             </li>
+                                         </ul>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <a href="" >
+                     <ul class="list-unstyled flex-column">
+                         <li ><a href="" class="d-inline ">活动盛事</a></li>
+                         <li >
+                             <div class="jt "></div>
+                         </li>
+                     </ul>
+                 </a>
+             </div>
+             <!--互动-->
+             <div class="col-md-1 pl-2 lianjie5">
+                 <div class="gl">
+                     <div class="gl1">
+                         <div class="row myborder">
+                             <div class="col-md-4 border-right border-light">
+                                 <ul class="list-unstyled pl-1">
+                                     <li>
+                                         <a href="#" class="font-weight-bold text-primary wzt">旅游攻略</a>
+                                     </li>
+                                     <li>
+                                         <a href="#"><img src="img/headerG/tu3.jpg"/></a>
+                                     </li>
+                                     <li>
+                                         <ul class="list-unstyled">
+                                             <li><a href="" class="wzt">[11月13日情报]合川进</a></li>
+                                             <li><a href=""class="wzt">11月7日合川涞滩古镇情报</a></li>
+                                             <li><a href=""class="wzt">12月入冬，北方天寒地冻</a></li>
+                                             <li><a href=""class="wzt">[国庆？赏花]合川晓起</a></li>
+                                         </ul>
+                                     </li>
+                                 </ul>
+                             </div>
+                             <div class="col-md-4 border-right border-light">
+                                 <ul class="list-unstyled pl-1">
+                                     <li>
+                                         <a href="#" class="font-weight-bold text-primary wzt">热门游记</a>
+                                     </li>
+                                     <li>
+                                         <a href="#"><img src="img/headerG/tu15.jpg"/></a>
+                                     </li>
+                                     <li>
+                                         <ul class="list-unstyled">
+                                             <li><a href="" class="wzt">合川文峰古jie, 云雾缭绕：网</a></li>
+                                             <li><a href=""class="wzt">2017年11月16日【高</a></li>
+                                             <li><a href=""class="wzt">【11月13日情报】合川进</a></li>
+                                             <li><a href=""class="wzt">在合川，乡村与田园：让生活</a></li>
+                                         </ul>
+                                     </li>
+                                 </ul>
+                             </div>
+                             <div class="col-md-4">
+                                 <ul class="list-unstyled pl-1">
+                                     <li>
+                                         <a href="#" class="font-weight-bold text-primary wzt">旅游工具箱</a>
+                                     </li>
+                                     <li>
+                                         <a href="#"><img src="img/headerG/tu3.jpg"/></a>
+                                     </li>
+                                     <li>
+                                         <ul class="list-unstyled">
+                                             <li><a href="" class="wzt">汽车班次</a></li>
+                                             <li><a href=""class="wzt">火车时刻</a></li>
+                                             <li><a href=""class="wzt">航班时刻</a></li>
+                                         </ul>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <a href="" >
+                     <ul class="list-unstyled flex-column">
+                         <li ><a href="" class="d-inline ">互动攻略</a></li>
+                         <li >
+                             <div class="jt "></div>
+                         </li>
+                     </ul>
+                 </a>
+             </div>
+         </div>
+     </div>
+     <!--身体-->
+     <div class="gudi">
+         <div class="d-flex flex-row">
+     <img src="img/header/nav1.jpg" id="yc" class="yc1"/>
+     <a href="#" ><img src="img/header/zzfs.png"/></a>
+         </div>
+     </div>
+     <!--右侧-->
+     <div class="gudi1">
+          <div class="mybj1 bjs">
+              <a href="#" class="text-white wzdw">活动盛事</a>
+          </div>
+         <div class="mybj1 bjs1">
+             <a href="#" class="text-white wzdw">景区风光</a>
+         </div>
+         <div class="mybj1 bjs2">
+             <a href="#" class="text-white wzdw">工具箱</a>
+         </div>
+         <div class="mybj1 bjs3">
+             <a href="#" class="text-white wzdw">热门游记</a>
+         </div>
+         <div class="mybj1 bjs4">
+             <a href="#" class="text-white wzdw">旅游攻略</a>
+         </div>
+     </div>
+     <!--中部-->
+     <div class="zj">
+         <div class="gudi2">
+             <ul class="list-unstyled d-flex flex-row">
+                 <li style="background-color:#1B7D20">旅游资讯</li>
+                 <li>微视频</li>
+                 <li>桃花节情报</li>
+                 <li>赏花攻略</li>
+                 <li>景区联合</li>
+                 <li>实用推荐</li>
+             </ul>
+            <div class=""> </div>
+             <div id="lunbo" class="">
+                <ul class="list-unstyled d-flex ">
+                    <li class="tupian lix"><a href=""><img src="img/zb/tu1.jpg" alt=""/></a></li>
+                    <li class="tupian"><a href=""><img src="img/zb/tu2.jpg" alt=""/></a></li>
+                    <li class="tupian"><a href=""><img src="img/zb/tu3.jpg" alt=""/></a></li>
+                    <li class="tupian"><a href=""><img src="img/zb/tu4.jpg" alt=""/></a></li>
+                    <li class="tupian"><a href=""><img src="img/zb/tu5.jpg" alt=""/></a></li>
+                </ul>
+                <div class="wzdw1">
+                    <ul class="list-unstyled">
+                        <li class="ztdx">动态资讯 &nbsp;HECHUAN NEWS</li>
+                        <li>
+                            <ul class="pl-4">
+                                <li class="wzt1">[公告]<a href="#" class="text-white font-weight-bold
+                               ">国家旅游局公示第三届全国旅游服务质量标杆单位和标杆培</a></li>
+                                <li class="wzt1">[公告]<a href="#" class="text-white font-weight-bold
+                               ">【急聘】人事专员、财务专员、民宿酒店堂主</a></li>
+                                <li class="wzt1">[资讯]<a href="#" class="text-white font-weight-bold
+                               ">【3月30日花情播报】合川周末睛好，无限热闹处，尽在</a></li>
+                                <li class="wzt1">[资讯]<a href="#" class="text-white font-weight-bold
+                               ">大小交通、自驾住宿→ 解疑问答</a></li>
+                                <li class="wzt1">[资讯]<a href="#" class="text-white font-weight-bold
+                               ">合川钓鱼城 , 云雾缭绕：网友惊呼 “仙境坠落人间，感</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                 <div id="yuandian">
+                     <ul class="list-unstyled d-flex flex-row">
+                         <li class="back">1</li>
+                         <li>2</li>
+                         <li>3</li>
+                         <li>4</li>
+                         <li>5</li>
+                     </ul>
+                 </div>
+             </div>
+             <div class="cart1 d-none pt-1">
+                 <div class="mybark pl-2 p-0">
+                 <div class="row">
+                     <div class="col-md-4 pt-2 px-0">
+                         <a href="" class="tubian "><img src="img/zb/tu14.jpg"/></a>
+                         <div class="tuzw text-white">视频：纵观历史</div>
+                     </div>
+                     <div class="col-md-4 pt-2 px-0">
+                         <a href=""class="tubian"><img src="img/zb/tu12.jpg" alt=""/></a>
+                         <div class="tuzw text-white">古城楼</div>
+                     </div>
+                     <div class="col-md-4 pt-2 px-0">
+                         <a href=""class="tubian"><img src="img/zb/tu13.jpg " alt=""/></a>
+                         <div class="tuzw text-white">老街</div>
+                     </div>
+                 </div>
+                 </div>
+             </div>
+             <div class="cart1 d-none mybark">
+                 <div class="mybark pl-2 p-0">
+                     <div class="row">
+                         <div class="col-md-4 pt-2 px-0">
+                             <a href="" class="tubian "><img src="img/zb/tu1.jpg"/></a>
+                             <div class="tuzw text-white">参天古树</div>
+                         </div>
+                         <div class="col-md-4 pt-2 px-0">
+                             <a href=""class="tubian"><img src="img/zb/tu4.jpg" alt=""/></a>
+                             <div class="tuzw text-white">合江合川</div>
+                         </div>
+                         <div class="col-md-4 pt-2 px-0">
+                             <a href=""class="tubian"><img src="img/zb/tu6.jpg " alt=""/></a>
+                             <div class="tuzw text-white">白塔</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="cart1 d-none mybark">
+                 <div class="mybark pl-2 p-0">
+                     <div class="row">
+                         <div class="col-md-4 pt-2 px-0">
+                             <a href="" class="tubian "><img src="img/zb/tu11.jpg"/></a>
+                             <div class="tuzw text-white">交通导航</div>
+                         </div>
+                         <div class="col-md-4 pt-2 px-0">
+                             <a href=""class="tubian"><img src="img/zb/tu10.jpg" alt=""/></a>
+                             <div class="tuzw text-white">一江碧水</div>
+                         </div>
+                         <div class="col-md-4 pt-2 px-0">
+                             <a href=""class="tubian"><img src="img/zb/tu15.jpg " alt=""/></a>
+                             <div class="tuzw text-white">人间仙境</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="cart1 d-none mybark">
+                 <div class="mybark pl-2 p-0">
+                     <div class="row">
+                         <div class="col-md-4 pt-2 px-0">
+                             <a href="" class="tubian "><img src="img/zb/tu9.jpg"/></a>
+                             <div class="tuzw text-white">现代化都市</div>
+                         </div>
+                         <div class="col-md-4 pt-2 px-0">
+                             <a href=""class="tubian"><img src="img/zb/tu17.jpg" alt=""/></a>
+                             <div class="tuzw text-white">文峰古街</div>
+                         </div>
+                         <div class="col-md-4 pt-2 px-0">
+                             <a href=""class="tubian"><img src="img/zb/tu19.jpg " alt=""/></a>
+                             <div class="tuzw text-white">古战场遗址</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="cart1 d-none mybark">
+                 <div class="mybark pl-2 p-0">
+                     <div class="row">
+                         <div class="col-md-4 pt-2 px-0">
+                             <a href="" class="tubian "><img src="img/zb/tu5.jpg"/></a>
+                             <div class="tuzw text-white">夜景</div>
+                         </div>
+                         <div class="col-md-4 pt-2 px-0">
+                             <a href=""class="tubian"><img src="img/zb/tu7.jpg" alt=""/></a>
+                             <div class="tuzw text-white">云雾缭绕</div>
+                         </div>
+                         <div class="col-md-4 pt-2 px-0">
+                             <a href=""class="tubian"><img src="img/zb/tu16.jpg " alt=""/></a>
+                             <div class="tuzw text-white">大好河山</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+     </div>
+         <div id="ssdw">
+             <ul class="list-unstyled d-flex flex-row">
+                 <li class="col-md-4 backg" data-mz="1"><a href="" class="">常规产品</a></li>
+                 <li class="col-md-4" data-mz="2"><a href=""class="">定制产品</a></li>
+                 <li class="col-md-4" data-mz="3"><a href=""class="">线路规划</a></li>
+             </ul>
+             <div class="div3 active">
+                 <ul class="list-unstyled" id="suo">
+                     <li class="pt-2 pl-2">
+                         <input class="inputl" type="text" placeholder="请输入景区名称"/>
+                     </li>
+                     <li class="pt-5 pl-5">
+                         <ul class="list-unstyled d-flex flex-row pl-4">
+                             <li class="text-white pr-4">
+                                 <input type="checkbox"/>门票
+                             </li>
+                             <li class="text-white pr-4">
+                                 <input type="checkbox"/>酒店
+                             </li>
+                             <li class="text-white">
+                                 <input type="checkbox"/>商品
+                             </li>
+                         </ul>
+                     </li>
+                     <li class=" pt-3 pl-4">
+                         <ul class="flex-row d-flex list-unstyled" >
+                             <li class="text-white pr-5"><a href="#">？帮助预定</a></li>
+                             <li class="pl-5">
+                                 <button class="butl">搜索</button>
+                             </li>
+                         </ul>
+                     </li>
+                 </ul>
+             </div>
+             <div class="div3">6987</div>
+             <div class="div3">365488999</div>
+         </div>
+     <!--尾-->
+ </div>
+ </div>
+ <div id="botton">
+     <div class="row">
+         <div class="col-md-4 offset-md-2">
+             <ul class="list-unstyled">
+                 <li >
+                     <a href="#" class="ulcolor">关于我们&nbsp;</a>
+                     <a href="#"class="ulcolor">|&nbsp;合川名片 </a>
+                     <a href="#"class="ulcolor">&nbsp;|&nbsp;联系我们</a>
+                     <a href="#"class="ulcolor">&nbsp;|&nbsp;帮助中心 </a>
+                     <a href="#"class="ulcolor">&nbsp;|&nbsp;友情链接</a>
+                 </li>
+                 <li class="pt-1 ulcolor1">Copyright © 2018 www.hechuan.cc 合川旅游股份有限公司 版权所有</li>
+                 <li class="pb-1 ulcolor1">主办单位：合川旅游股份有限公司 地址：重庆市合川县旅游集散中心</li>
+                 <li class="ulcolor">赣ICP备09007142号-1 技术支持：[深圳鼎游]站长统计
+                     <a href="#"><img src="img/header/gsjw.png"/></a> </li>
+             </ul>
+         </div>
+     </div>
+     <div >
+           <div><img src="img/header/ereuma.png"/></div>
+           <div><a href="#" class="ulcolor xlwb">新浪微博</a></div>
+         <div><a href="#" class="ulcolor txwb">腾讯微博</a></div>
+     </div>
+ </div>
+</div>
+ <script src="js/jquery-1.11.3.js"></script>
+ <script src="js/header.js"></script>
+</body>
+</html>
+
+ 

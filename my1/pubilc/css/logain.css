@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+}
+#main{
+    width:1230px;
+    margin: 0 auto;
+}
+#img{
+    width: 1002px;
+    height: 352px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px 2px #EEEEEE;
+    border: 1px solid #EEEEEE;
+    position: relative;
+}
+#img>.row>.col-md-5>img{
+    position:absolute;
+    top: 30px;
+    left: 40px;
+    z-index:0;
+    transition: all 0.5s linear;
+}
+#img>.row>.col-md-5>img.show{
+    z-index:10!important;
+}
+input,.tisk{
+    width:330px;
+    height: 32px;
+}
+
+.dl1{background:#F4882F;
+    padding-top:2px;
+    width:330px;
+    height: 32px;
+    border: none;
+    text-align: center;
+}
+.tisk1{display: block;
+    background: #FFF9E8;
+    color: #FF5700;
+    width:330px;
+    height: 32px;
+    border: 1px solid #FF5700;
+}
+.tisk{
+    display: none;
+}
+.wz{
+    color: #999999;
+}
+.bk{
+    border-top:2px solid black;
+    box-shadow:0 0 1px 1px #EEEEEE ;
+}
+.kuan{
+    width: 17px;
+    height: 17px;
+}
+.myzc{
+    position: absolute;
+    top: 300px;
+    right: 0px;
+}
+.myzc1{
+    width: 80px;
+    height: 32px;
+    background:#75BAFF;
+    display: none;
+}
+.myzc2{
+    width: 60px;
+    height: 32px;
+    background:#75BAFF;
+}
+.myzc3{
+    width: 25px;
+    height: 32px;
+    background:#75BAFF;
+    border-top-left-radius:80% ;
+}
+.myzc4{/*为了隐藏只是给父元素加悬停放在兄弟上被隐藏的兄弟才会显*/}
+.myzc4:hover .myzc1{
+    display: block;
+}
+
+
+hr{
+    margin-top: 70px;
+    width: 1000px;
+}
+.word{
+    font-size: 12px;
+    color: black;
+}
+.duqi{
+    margin:5px 500px;
+}
+.duqi1{
+    margin:5px 470px;
+}
